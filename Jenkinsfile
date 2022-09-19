@@ -11,3 +11,4 @@ genericNodeBuild('14.19.3') {
     sh 'npm run test'
     sh 'node --max_old_space_size=3000 ./node_modules/.bin/ng build'
 }
+
